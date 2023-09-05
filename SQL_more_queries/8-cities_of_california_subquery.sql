@@ -1,6 +1,7 @@
 #!/bin/bash
 
 -- This script lists all cities of California that can be found in the db hbtn_0d_usa
+CREATE DATABASE IF NOT EXISTS hbtn_0d_usa;
 USE hbtn_0d_usa;
 
 -- Find the state_id for California from the states table
